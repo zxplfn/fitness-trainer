@@ -24,6 +24,11 @@ const reviews = [
     role: "Osobní trénink",
     text: "S Vojtou trénuji přes půl roku a jsem velmi spokojený. Díky jeho přístupu vím na co a jak se zaměřit i když jdu cvičit samostatně, bez dohledu.",
   },
+  {
+    name: "Samuel Rychtar",
+    role: "Osobní trénink",
+    text: "Vojta vás velmi přirozenou cestou donutí vytvořit si větší lásku k pohybu i k sobě. Má skvělej drive a hlavně ví co dělá. Umí mluvit i mlčet, tlačit na pilu i brzdit když je potřeba, prostě jak vám to zrovna vyhovuje. Stanovený cíl zatím plníme dvojnásobným tempem a to ve skvěle udržitelném režimu, se kterým vám mimochodem ochotně pomůže také.",
+  },
 ]
 
 const MAX_LENGTH = 180

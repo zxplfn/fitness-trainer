@@ -54,6 +54,14 @@ const services = [
     desc: "Kompletní spolupráce na dálku. Každý týden hodinová online konzultace, aktualizovaný tréninkový plán a hodnocení tvého progresu. Jsem pořád k dispozici.",
     featured: false,
   },
+  {
+    num: "04",
+    title: "Trénink ve dvou",
+    price: "1 000 Kč / hod",
+    note: "Za osobu při cvičení ve dvojici",
+    desc: "Přiveď kamaráda nebo přijďte jako pár. Trénink ve dvou je zábavnější, motivujete se navzájem a cena je výhodnější. Vše je stále plně přizpůsobené vám oběma.",
+    featured: false,
+  },
 ]
 
 type Service = typeof services[0]
@@ -153,7 +161,7 @@ export function ServicesSection() {
             className="mt-4 text-base sm:text-lg font-light font-sans leading-relaxed"
             style={{ color: "oklch(0.50 0 0)", maxWidth: "28rem" }}
           >
-            Tři cesty k jednomu cíli.
+            Čtyři cesty k jednomu cíli.
           </p>
         </div>
 

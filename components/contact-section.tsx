@@ -198,6 +198,48 @@ export function Footer() {
           &copy; {new Date().getFullYear()} Vojtěch Prokeš
         </p>
       </div>
+
+      <div
+        className="max-w-screen-xl mx-auto px-6 sm:px-10 md:px-16 mt-8 pt-6 flex items-center justify-center"
+        style={{ borderTop: "1px solid oklch(0.18 0 0)" }}
+      >
+        <a
+          href="https://socialy.cz"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="group inline-flex items-center gap-2.5 transition-opacity hover:opacity-80"
+        >
+          <span className="text-[10px] tracking-[0.15em] font-sans" style={{ color: "oklch(0.45 0 0)" }}>
+            Web vytvořilo
+          </span>
+          <span className="inline-flex items-center gap-1.5">
+            <svg viewBox="0 0 64 64" fill="none" aria-hidden="true" className="w-[18px] h-[18px] transition-transform group-hover:scale-110">
+              <defs>
+                <linearGradient id="socialyMark" x1="22" y1="12" x2="34" y2="52" gradientUnits="userSpaceOnUse">
+                  <stop offset="0" stopColor="hsl(330 90% 62%)" />
+                  <stop offset="0.55" stopColor="hsl(358 86% 58%)" />
+                  <stop offset="1" stopColor="hsl(22 95% 58%)" />
+                </linearGradient>
+              </defs>
+              <path d="M19 20 L23 27" stroke="url(#socialyMark)" strokeWidth="11" strokeLinecap="round" />
+              <path d="M41 14 L27 50" stroke="url(#socialyMark)" strokeWidth="11" strokeLinecap="round" />
+            </svg>
+            <span
+              className="text-sm"
+              style={{
+                fontFamily: "var(--font-display)",
+                fontWeight: 700,
+                background: "linear-gradient(95deg, hsl(330 90% 62%), hsl(358 86% 58%), hsl(22 95% 58%))",
+                WebkitBackgroundClip: "text",
+                backgroundClip: "text",
+                WebkitTextFillColor: "transparent",
+              }}
+            >
+              Socialy.cz
+            </span>
+          </span>
+        </a>
+      </div>
     </footer>
   )
 }
